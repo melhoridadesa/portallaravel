@@ -1,0 +1,69 @@
+/* ESTILO DA PAGINA */
+body {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+* {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+body #page{
+	overflow: hidden;
+	width: 1024px;
+}
+
+body #page #head{
+	overflow: hidden;
+}
+
+body #page #main{
+	overflow: hidden;
+}
+
+body #page #footer{
+	overflow: hidden;
+}
+
+/* ESTILO DO MENU E LOGO */
+
+body #page #head > #container {
+	height: 60px;
+}
+
+body #page #head > #container > .box-container {
+	float: left;
+	width: 675px;
+	text-align: center;
+}
+
+html body div#page div#head div#container div.box-container ul{
+	list-style: none;
+}
+
+html body div#page div#head div#container div.box-container ul li{
+	float: left;
+	padding: 15px;
+	background: #f4645f;
+	margin-right: 15px;
+	border: 1px solid #525252;
+	border-radius: 12px;
+}
+
+html body div#page div#head div#container div.box-container ul li:hover{
+	border: 1px solid #f4645f;
+	background: #525252;
+	cursor: pointer;
+}
+
+html body div#page div#head div#container div.box-container ul li a {
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #FFF;
+	padding: 25px;
+}
+
+.size-img {
+	width: 283px !important;
+}
